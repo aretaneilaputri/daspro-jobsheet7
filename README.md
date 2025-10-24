@@ -73,3 +73,7 @@ Jawab: jika nama pelanggan pertama yang dimasukkan adalah “batal”, maka peru
 2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
 
 Jawab:Kondisi berhenti pada perulangan DO–WHILE dalam program ini adalah ketika pengguna memasukkan kata “batal” sebagai nama pelanggan, karena hal itu memicu perintah break yang menghentikan perulangan.
+
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+
+Jawab: Penggunaan nilai true pada kondisi DO–WHILE ini adalah berfungsi untuk membuat perulangan berjalan tanpa batas (infiniteloop) Yang artinya, program akan terus meminta input berulang kali selama tidak ada perintah break.Dalam program ini perulangan hanya akan berhenti jika pengguna mengetik “batal”, yang kemudian mengeksekusi break untuk keluar dari loop.Dengan cara ini, program menjadi lebih fleksibel, karena jumlah pengulangan ditentukan oleh keinginan pengguna, bukan oleh batas angka tertentu.
