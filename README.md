@@ -48,3 +48,8 @@ Maksudnya adalah untuk memeriksa apakah nilai berada di luar rentang 0–100.
 Jika kondisi if benar, maka program akan menampilkan pesan ke pengguna:"Nilai tidak valid. Masukkan ulang."Ini memberi tahu pengguna bahwa input yang dimasukkan tidak sesuai dengan aturan (0–100).
 "continue;" 
 continue digunakan di dalam loop (for, while, atau do-while).Fungsinya adalah melewatkan sisa kode di dalam iterasi saat ini dan langsung kembali ke awal loop untuk iterasi berikutnya.Dalam konteks ini, artinya Program tidak memproses nilai yang salah, langsung meminta input ulang.
+
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya
+dituliskan di awal perulangan WHILE?
+
+Jawaban: i adalah penghitung mahasiswa yang sudah valid.Kalau ditaruh di awal maka kita akan menambah penghitung sebelum input diterima, sehingga indeks mahasiswa bisa keliru.Dengan menaruh i++ di akhir maka kita hanya menghitung mahasiswa yang valid.Jadi kesimpulannya adalah i++ di akhir loop maka nilai saat ini diproses dulu, baru dinaikkan.jika i++ di awal loop maka nilai dinaikkan dulu, baru diproses.Maka dari itu posisi i++ memengaruhi urutan nilai yang diproses dan apakah nilai awal digunakan.
