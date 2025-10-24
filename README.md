@@ -53,3 +53,13 @@ continue digunakan di dalam loop (for, while, atau do-while).Fungsinya adalah me
 dituliskan di awal perulangan WHILE?
 
 Jawaban: i adalah penghitung mahasiswa yang sudah valid.Kalau ditaruh di awal maka kita akan menambah penghitung sebelum input diterima, sehingga indeks mahasiswa bisa keliru.Dengan menaruh i++ di akhir maka kita hanya menghitung mahasiswa yang valid.Jadi kesimpulannya adalah i++ di akhir loop maka nilai saat ini diproses dulu, baru dinaikkan.jika i++ di awal loop maka nilai dinaikkan dulu, baru diproses.Maka dari itu posisi i++ memengaruhi urutan nilai yang diproses dan apakah nilai awal digunakan.
+
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
+akan berjalan?
+
+Jawab: jika jumlah mahasiswa adalah 19 dan loop dimulai dari i = 0 dengan increment di akhir, perulangan WHILE akan berjalan sebanyak 19 kali.karena prinsipnya sama seperti FOR perulangan WHILE akan terus berjalan selama kondisi bernilai benar.
+
+4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A,
+program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
+
+5. Commit dan push kode program ke Github
