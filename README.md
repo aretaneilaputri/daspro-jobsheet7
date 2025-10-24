@@ -77,3 +77,9 @@ Jawab:Kondisi berhenti pada perulangan DO–WHILE dalam program ini adalah ketik
 3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
 
 Jawab: Penggunaan nilai true pada kondisi DO–WHILE ini adalah berfungsi untuk membuat perulangan berjalan tanpa batas (infiniteloop) Yang artinya, program akan terus meminta input berulang kali selama tidak ada perintah break.Dalam program ini perulangan hanya akan berhenti jika pengguna mengetik “batal”, yang kemudian mengeksekusi break untuk keluar dari loop.Dengan cara ini, program menjadi lebih fleksibel, karena jumlah pengulangan ditentukan oleh keinginan pengguna, bukan oleh batas angka tertentu.
+
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen
+inisialisasi dan update?
+
+Jawaban: Karena perulangan DO-WHILE itu akan tetap jalan walaupun tidak ada inisialisasi dan update karena dia dikendalikan oleh kondisi true (selalu benar). Jadi selama belum ada break, dia akan terus mengulang.Di program ini, yang menentukan kapan berhenti bukan variabel, tapi pengguna yang mengetik “batal”.
+
