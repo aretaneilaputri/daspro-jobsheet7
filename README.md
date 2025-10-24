@@ -63,3 +63,10 @@ Jawab: jika jumlah mahasiswa adalah 19 dan loop dimulai dari i = 0 dengan increm
 program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
 
 5. Commit dan push kode program ke Github
+
+Percobaan 3
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali
+adalah “batal”, maka berapa kali perulangan dilakukan?
+
+Jawab: jika nama pelanggan pertama yang dimasukkan adalah “batal”, maka perulangan DO-WHILE akan tetap dilakukan 1 kali sebelum berhenti.Karena walaupun program langsung berhenti, perintah di dalam do sudah sempat dijalankan sekali. Yang artinya perulangan benar-benar terjadi satu kali, walaupun isinya cuma Menampilkan permintaan nama pelanggan, dan Mengecek apakah nama itu “batal”.Setelah itu, program berhenti tanpa mengulang lagi.
+
