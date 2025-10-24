@@ -33,3 +33,18 @@ dan terendah!
 
 5. Commit dan push kode program ke Github
 
+
+Pertanyaan Percobaan 2
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+     if (nilai < 0 || nilai > 100) {
+                System.out.println("Nilai tidak valid. Masukkan ulang.");
+                continue;
+            }
+
+Jawab: "if (nilai < 0 || nilai > 100)" 
+bagian ini adalah kondisi percabangan.Operator || adalah OR logika, artinya kondisi akan benar jika salah satu atau kedua syaratnya benar.Jadi kondisi ini akan benar jika nilai < 0 → nilai yang dimasukkan kurang dari 0 atau nilai > 100 → nilai yang dimasukkan lebih dari 100
+Maksudnya adalah untuk memeriksa apakah nilai berada di luar rentang 0–100.
+"System.out.println("Nilai tidak valid. Masukkan ulang.");"
+Jika kondisi if benar, maka program akan menampilkan pesan ke pengguna:"Nilai tidak valid. Masukkan ulang."Ini memberi tahu pengguna bahwa input yang dimasukkan tidak sesuai dengan aturan (0–100).
+"continue;" 
+continue digunakan di dalam loop (for, while, atau do-while).Fungsinya adalah melewatkan sisa kode di dalam iterasi saat ini dan langsung kembali ke awal loop untuk iterasi berikutnya.Dalam konteks ini, artinya Program tidak memproses nilai yang salah, langsung meminta input ulang.
