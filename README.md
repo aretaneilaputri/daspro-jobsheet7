@@ -70,3 +70,6 @@ adalah “batal”, maka berapa kali perulangan dilakukan?
 
 Jawab: jika nama pelanggan pertama yang dimasukkan adalah “batal”, maka perulangan DO-WHILE akan tetap dilakukan 1 kali sebelum berhenti.Karena walaupun program langsung berhenti, perintah di dalam do sudah sempat dijalankan sekali. Yang artinya perulangan benar-benar terjadi satu kali, walaupun isinya cuma Menampilkan permintaan nama pelanggan, dan Mengecek apakah nama itu “batal”.Setelah itu, program berhenti tanpa mengulang lagi.
 
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+
+Jawab:Kondisi berhenti pada perulangan DO–WHILE dalam program ini adalah ketika pengguna memasukkan kata “batal” sebagai nama pelanggan, karena hal itu memicu perintah break yang menghentikan perulangan.
